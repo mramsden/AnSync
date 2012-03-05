@@ -1,0 +1,3 @@
+[submodule "EyeTunes"]
+	path = EyeTunes
+	url = https://github.com/kgn/EyeTunes.git
