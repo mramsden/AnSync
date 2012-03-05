@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C744B921505708800E7FE7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C744B911505708800E7FE7B /* Cocoa.framework */; };
+		2C744B9C1505708800E7FE7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C744B9A1505708800E7FE7B /* InfoPlist.strings */; };
+		2C744B9E1505708800E7FE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744B9D1505708800E7FE7B /* main.m */; };
+		2C744BA21505708800E7FE7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2C744BA01505708800E7FE7B /* Credits.rtf */; };
+		2C744BA51505708800E7FE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744BA41505708800E7FE7B /* AppDelegate.m */; };
+		2C744BA81505708900E7FE7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C744BA61505708900E7FE7B /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C744B8D1505708800E7FE7B /* AnSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C744B911505708800E7FE7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2C744B941505708800E7FE7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2C744B951505708800E7FE7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2C744B961505708800E7FE7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C744B991505708800E7FE7B /* AnSync-Info.plist */ = {isa = PBXFileReference; path = "AnSync-Info.plist"; sourceTree = "<group>"; };
+		2C744B9B1505708800E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C744B9D1505708800E7FE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C744B9F1505708800E7FE7B /* AnSync-Prefix.pch */ = {isa = PBXFileReference; path = "AnSync-Prefix.pch"; sourceTree = "<group>"; };
+		2C744BA11505708800E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2C744BA31505708800E7FE7B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C744BA41505708800E7FE7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C744BA71505708900E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C744B8A1505708800E7FE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C744B921505708800E7FE7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C744B821505708800E7FE7B = {
+			isa = PBXGroup;
+			children = (
+				2C744B971505708800E7FE7B /* AnSync */,
+				2C744B901505708800E7FE7B /* Frameworks */,
+				2C744B8E1505708800E7FE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C744B8E1505708800E7FE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C744B8D1505708800E7FE7B /* AnSync.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C744B901505708800E7FE7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C744B911505708800E7FE7B /* Cocoa.framework */,
+				2C744B931505708800E7FE7B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C744B931505708800E7FE7B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C744B941505708800E7FE7B /* AppKit.framework */,
+				2C744B951505708800E7FE7B /* CoreData.framework */,
+				2C744B961505708800E7FE7B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2C744B971505708800E7FE7B /* AnSync */ = {
+			isa = PBXGroup;
+			children = (
+				2C744BA31505708800E7FE7B /* AppDelegate.h */,
+				2C744BA41505708800E7FE7B /* AppDelegate.m */,
+				2C744BA61505708900E7FE7B /* MainMenu.xib */,
+				2C744B981505708800E7FE7B /* Supporting Files */,
+			);
+			path = AnSync;
+			sourceTree = "<group>";
+		};
+		2C744B981505708800E7FE7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C744B991505708800E7FE7B /* AnSync-Info.plist */,
+				2C744B9A1505708800E7FE7B /* InfoPlist.strings */,
+				2C744B9D1505708800E7FE7B /* main.m */,
+				2C744B9F1505708800E7FE7B /* AnSync-Prefix.pch */,
+				2C744BA01505708800E7FE7B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C744B8C1505708800E7FE7B /* AnSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C744BAB1505708900E7FE7B /* Build configuration list for PBXNativeTarget "AnSync" */;
+			buildPhases = (
+				2C744B891505708800E7FE7B /* Sources */,
+				2C744B8A1505708800E7FE7B /* Frameworks */,
+				2C744B8B1505708800E7FE7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnSync;
+			productName = AnSync;
+			productReference = 2C744B8D1505708800E7FE7B /* AnSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C744B841505708800E7FE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2C744B871505708800E7FE7B /* Build configuration list for PBXProject "AnSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C744B821505708800E7FE7B;
+			productRefGroup = 2C744B8E1505708800E7FE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C744B8C1505708800E7FE7B /* AnSync */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C744B8B1505708800E7FE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C744B9C1505708800E7FE7B /* InfoPlist.strings in Resources */,
+				2C744BA21505708800E7FE7B /* Credits.rtf in Resources */,
+				2C744BA81505708900E7FE7B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C744B891505708800E7FE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C744B9E1505708800E7FE7B /* main.m in Sources */,
+				2C744BA51505708800E7FE7B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C744B9A1505708800E7FE7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C744B9B1505708800E7FE7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C744BA01505708800E7FE7B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C744BA11505708800E7FE7B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2C744BA61505708900E7FE7B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C744BA71505708900E7FE7B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C744BA91505708900E7FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2C744BAA1505708900E7FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2C744BAC1505708900E7FE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnSync/AnSync-Prefix.pch";
+				INFOPLIST_FILE = "AnSync/AnSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C744BAD1505708900E7FE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnSync/AnSync-Prefix.pch";
+				INFOPLIST_FILE = "AnSync/AnSync-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C744B871505708800E7FE7B /* Build configuration list for PBXProject "AnSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C744BA91505708900E7FE7B /* Debug */,
+				2C744BAA1505708900E7FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C744BAB1505708900E7FE7B /* Build configuration list for PBXNativeTarget "AnSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C744BAC1505708900E7FE7B /* Debug */,
+				2C744BAD1505708900E7FE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C744B841505708800E7FE7B /* Project object */;
+}
