@@ -21,12 +21,12 @@
 		2C744B941505708800E7FE7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2C744B951505708800E7FE7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2C744B961505708800E7FE7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2C744B991505708800E7FE7B /* AnSync-Info.plist */ = {isa = PBXFileReference; path = "AnSync-Info.plist"; sourceTree = "<group>"; };
+		2C744B991505708800E7FE7B /* AnSync-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnSync-Info.plist"; sourceTree = "<group>"; };
 		2C744B9B1505708800E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C744B9D1505708800E7FE7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C744B9F1505708800E7FE7B /* AnSync-Prefix.pch */ = {isa = PBXFileReference; path = "AnSync-Prefix.pch"; sourceTree = "<group>"; };
+		2C744B9F1505708800E7FE7B /* AnSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnSync-Prefix.pch"; sourceTree = "<group>"; };
 		2C744BA11505708800E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2C744BA31505708800E7FE7B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C744BA31505708800E7FE7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2C744BA41505708800E7FE7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C744BA71505708900E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
