@@ -7,8 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ASLibraryScanner.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+{
+    ASLibraryScanner *_libraryScanner;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTextField *statusLabel;

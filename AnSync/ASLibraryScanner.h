@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface ASLibraryScanner : NSObject
+{
+    NSMutableDictionary *_libraryTrackLocations;
+}
 
 @property (readonly,getter=isRunning) BOOL running;
 

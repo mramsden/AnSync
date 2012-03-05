@@ -23,16 +23,38 @@
 
 - (IBAction)startScanner:(id)sender
 {
-    [_startScannerButton setEnabled:NO];
-    [_stopScannerButton setEnabled:YES];
-    [_statusLabel setTitleWithMnemonic:@"Scanning..."];
+    if (nil == _libraryScanner) {
+        _libraryScanner = [[ASLibraryScanner alloc] init];
+    }
+    
+    [_libraryScanner addObserver:self forKeyPath:@"running" options:0 context:nil];
+    [_libraryScanner start];
 }
 
 - (IBAction)stopScanner:(id)sender
 {
-    [_startScannerButton setEnabled:YES];
-    [_stopScannerButton setEnabled:NO];
-    [_statusLabel setTitleWithMnemonic:@"Not Scanning"];
+    [_libraryScanner stop];
+    [_libraryScanner removeObserver:self forKeyPath:@"running"];
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if ([@"running" isEqualToString:keyPath] && [object isEqual:_libraryScanner]) {
+        if (_libraryScanner.running) {
+            [_startScannerButton setEnabled:NO];
+            [_stopScannerButton setEnabled:YES];
+            [_statusLabel setTitleWithMnemonic:@"Scanning..."];
+        } else {
+            [_startScannerButton setEnabled:YES];
+            [_stopScannerButton setEnabled:NO];
+            [_statusLabel setTitleWithMnemonic:@"Not Scanning"];
+        }
+    }
+}
+
+- (void)dealloc
+{
+    [_libraryScanner removeObserver:self forKeyPath:@"running"];
 }
 
 @end

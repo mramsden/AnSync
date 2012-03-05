@@ -14,6 +14,18 @@
 		2C744BA51505708800E7FE7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744BA41505708800E7FE7B /* AppDelegate.m */; };
 		2C744BA81505708900E7FE7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C744BA61505708900E7FE7B /* MainMenu.xib */; };
 		2C744BB1150575B500E7FE7B /* ASLibraryScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744BB0150575B500E7FE7B /* ASLibraryScanner.m */; };
+		2C744C3315057A7500E7FE7B /* ETAppleEventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C1915057A7500E7FE7B /* ETAppleEventObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3415057A7500E7FE7B /* ETDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C1B15057A7500E7FE7B /* ETDebug.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3515057A7500E7FE7B /* ETEyeTunes.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C1D15057A7500E7FE7B /* ETEyeTunes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3615057A7500E7FE7B /* ETPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C1F15057A7500E7FE7B /* ETPlaylist.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3715057A7500E7FE7B /* ETPlaylistCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2115057A7500E7FE7B /* ETPlaylistCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3815057A7500E7FE7B /* ETPlaylistEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2315057A7500E7FE7B /* ETPlaylistEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3915057A7500E7FE7B /* ETRootUserPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2515057A7500E7FE7B /* ETRootUserPlaylist.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3A15057A7500E7FE7B /* ETTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2715057A7500E7FE7B /* ETTrack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3B15057A7500E7FE7B /* ETTrackEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2915057A7500E7FE7B /* ETTrackEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3C15057A7500E7FE7B /* ETUserPlaylistEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2B15057A7500E7FE7B /* ETUserPlaylistEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3D15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C3015057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C3E15057A7500E7FE7B /* NSString+LongLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C3215057A7500E7FE7B /* NSString+LongLongValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,33 @@
 		2C744BA71505708900E7FE7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2C744BAF150575B500E7FE7B /* ASLibraryScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLibraryScanner.h; sourceTree = "<group>"; };
 		2C744BB0150575B500E7FE7B /* ASLibraryScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLibraryScanner.m; sourceTree = "<group>"; };
+		2C744C1815057A7500E7FE7B /* ETAppleEventObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETAppleEventObject.h; sourceTree = "<group>"; };
+		2C744C1915057A7500E7FE7B /* ETAppleEventObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETAppleEventObject.m; sourceTree = "<group>"; };
+		2C744C1A15057A7500E7FE7B /* ETDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETDebug.h; sourceTree = "<group>"; };
+		2C744C1B15057A7500E7FE7B /* ETDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETDebug.m; sourceTree = "<group>"; };
+		2C744C1C15057A7500E7FE7B /* ETEyeTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETEyeTunes.h; sourceTree = "<group>"; };
+		2C744C1D15057A7500E7FE7B /* ETEyeTunes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETEyeTunes.m; sourceTree = "<group>"; };
+		2C744C1E15057A7500E7FE7B /* ETPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPlaylist.h; sourceTree = "<group>"; };
+		2C744C1F15057A7500E7FE7B /* ETPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPlaylist.m; sourceTree = "<group>"; };
+		2C744C2015057A7500E7FE7B /* ETPlaylistCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPlaylistCache.h; sourceTree = "<group>"; };
+		2C744C2115057A7500E7FE7B /* ETPlaylistCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPlaylistCache.m; sourceTree = "<group>"; };
+		2C744C2215057A7500E7FE7B /* ETPlaylistEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETPlaylistEnumerator.h; sourceTree = "<group>"; };
+		2C744C2315057A7500E7FE7B /* ETPlaylistEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETPlaylistEnumerator.m; sourceTree = "<group>"; };
+		2C744C2415057A7500E7FE7B /* ETRootUserPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRootUserPlaylist.h; sourceTree = "<group>"; };
+		2C744C2515057A7500E7FE7B /* ETRootUserPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRootUserPlaylist.m; sourceTree = "<group>"; };
+		2C744C2615057A7500E7FE7B /* ETTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTrack.h; sourceTree = "<group>"; };
+		2C744C2715057A7500E7FE7B /* ETTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTrack.m; sourceTree = "<group>"; };
+		2C744C2815057A7500E7FE7B /* ETTrackEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTrackEnumerator.h; sourceTree = "<group>"; };
+		2C744C2915057A7500E7FE7B /* ETTrackEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTrackEnumerator.m; sourceTree = "<group>"; };
+		2C744C2A15057A7500E7FE7B /* ETUserPlaylistEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETUserPlaylistEnumerator.h; sourceTree = "<group>"; };
+		2C744C2B15057A7500E7FE7B /* ETUserPlaylistEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETUserPlaylistEnumerator.m; sourceTree = "<group>"; };
+		2C744C2C15057A7500E7FE7B /* EyeTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunes.h; sourceTree = "<group>"; };
+		2C744C2D15057A7500E7FE7B /* EyeTunesEventCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunesEventCodes.h; sourceTree = "<group>"; };
+		2C744C2E15057A7500E7FE7B /* EyeTunesVersions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EyeTunesVersions.h; sourceTree = "<group>"; };
+		2C744C2F15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+ETPlaylistNameSorting.h"; sourceTree = "<group>"; };
+		2C744C3015057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ETPlaylistNameSorting.m"; sourceTree = "<group>"; };
+		2C744C3115057A7500E7FE7B /* NSString+LongLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LongLongValue.h"; sourceTree = "<group>"; };
+		2C744C3215057A7500E7FE7B /* NSString+LongLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LongLongValue.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				2C744B971505708800E7FE7B /* AnSync */,
+				2C744C1715057A7500E7FE7B /* EyeTunes */,
 				2C744B901505708800E7FE7B /* Frameworks */,
 				2C744B8E1505708800E7FE7B /* Products */,
 			);
@@ -113,6 +153,41 @@
 				2C744BB0150575B500E7FE7B /* ASLibraryScanner.m */,
 			);
 			name = Scanner;
+			sourceTree = "<group>";
+		};
+		2C744C1715057A7500E7FE7B /* EyeTunes */ = {
+			isa = PBXGroup;
+			children = (
+				2C744C1815057A7500E7FE7B /* ETAppleEventObject.h */,
+				2C744C1915057A7500E7FE7B /* ETAppleEventObject.m */,
+				2C744C1A15057A7500E7FE7B /* ETDebug.h */,
+				2C744C1B15057A7500E7FE7B /* ETDebug.m */,
+				2C744C1C15057A7500E7FE7B /* ETEyeTunes.h */,
+				2C744C1D15057A7500E7FE7B /* ETEyeTunes.m */,
+				2C744C1E15057A7500E7FE7B /* ETPlaylist.h */,
+				2C744C1F15057A7500E7FE7B /* ETPlaylist.m */,
+				2C744C2015057A7500E7FE7B /* ETPlaylistCache.h */,
+				2C744C2115057A7500E7FE7B /* ETPlaylistCache.m */,
+				2C744C2215057A7500E7FE7B /* ETPlaylistEnumerator.h */,
+				2C744C2315057A7500E7FE7B /* ETPlaylistEnumerator.m */,
+				2C744C2415057A7500E7FE7B /* ETRootUserPlaylist.h */,
+				2C744C2515057A7500E7FE7B /* ETRootUserPlaylist.m */,
+				2C744C2615057A7500E7FE7B /* ETTrack.h */,
+				2C744C2715057A7500E7FE7B /* ETTrack.m */,
+				2C744C2815057A7500E7FE7B /* ETTrackEnumerator.h */,
+				2C744C2915057A7500E7FE7B /* ETTrackEnumerator.m */,
+				2C744C2A15057A7500E7FE7B /* ETUserPlaylistEnumerator.h */,
+				2C744C2B15057A7500E7FE7B /* ETUserPlaylistEnumerator.m */,
+				2C744C2C15057A7500E7FE7B /* EyeTunes.h */,
+				2C744C2D15057A7500E7FE7B /* EyeTunesEventCodes.h */,
+				2C744C2E15057A7500E7FE7B /* EyeTunesVersions.h */,
+				2C744C2F15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.h */,
+				2C744C3015057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m */,
+				2C744C3115057A7500E7FE7B /* NSString+LongLongValue.h */,
+				2C744C3215057A7500E7FE7B /* NSString+LongLongValue.m */,
+			);
+			name = EyeTunes;
+			path = EyeTunes/Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +257,18 @@
 				2C744B9E1505708800E7FE7B /* main.m in Sources */,
 				2C744BA51505708800E7FE7B /* AppDelegate.m in Sources */,
 				2C744BB1150575B500E7FE7B /* ASLibraryScanner.m in Sources */,
+				2C744C3315057A7500E7FE7B /* ETAppleEventObject.m in Sources */,
+				2C744C3415057A7500E7FE7B /* ETDebug.m in Sources */,
+				2C744C3515057A7500E7FE7B /* ETEyeTunes.m in Sources */,
+				2C744C3615057A7500E7FE7B /* ETPlaylist.m in Sources */,
+				2C744C3715057A7500E7FE7B /* ETPlaylistCache.m in Sources */,
+				2C744C3815057A7500E7FE7B /* ETPlaylistEnumerator.m in Sources */,
+				2C744C3915057A7500E7FE7B /* ETRootUserPlaylist.m in Sources */,
+				2C744C3A15057A7500E7FE7B /* ETTrack.m in Sources */,
+				2C744C3B15057A7500E7FE7B /* ETTrackEnumerator.m in Sources */,
+				2C744C3C15057A7500E7FE7B /* ETUserPlaylistEnumerator.m in Sources */,
+				2C744C3D15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m in Sources */,
+				2C744C3E15057A7500E7FE7B /* NSString+LongLongValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

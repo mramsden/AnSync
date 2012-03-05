@@ -7,6 +7,7 @@
 //
 
 #import "ASLibraryScanner.h"
+#import "EyeTunes.h"
 
 @implementation ASLibraryScanner
 
@@ -14,16 +15,35 @@
 
 - (void)start
 {
-    _running = YES;
-    
-    if ([NSThread mainThread]) {
+    if ([NSThread isMainThread]) {
         [self performSelectorInBackground:@selector(start) withObject:nil];
+        return;
     }
+    
+    [self willChangeValueForKey:@"running"];
+    _running = YES;
+    [self didChangeValueForKey:@"running"];
+    
+    EyeTunes *eyeTunes = [EyeTunes sharedInstance];
+    ETPlaylist *rootPlaylist = [eyeTunes rootUserPlaylist];
+    for (ETTrack *track in [rootPlaylist tracks]) {
+        if (!_running) {
+            break;
+        }
+        
+        NSLog(@"Track Name: %@", track.name);
+    }
+    
+    [self willChangeValueForKey:@"running"];
+    _running = NO;
+    [self didChangeValueForKey:@"running"];
 }
 
 - (void)stop
 {
+    [self willChangeValueForKey:@"running"];
     _running = NO;
+    [self didChangeValueForKey:@"running"];
 }
 
 @end
