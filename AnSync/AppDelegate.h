@@ -8,10 +8,12 @@
 
 #import <Cocoa/Cocoa.h>
 #import "ASLibraryScanner.h"
+#import "ASSyncService.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 {
     ASLibraryScanner *_libraryScanner;
+    ASSyncService *_syncService;
 }
 
 @property (assign) IBOutlet NSWindow *window;

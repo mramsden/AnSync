@@ -26,6 +26,7 @@
 		2C744C3C15057A7500E7FE7B /* ETUserPlaylistEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C2B15057A7500E7FE7B /* ETUserPlaylistEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2C744C3D15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C3015057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2C744C3E15057A7500E7FE7B /* NSString+LongLongValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C3215057A7500E7FE7B /* NSString+LongLongValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2C744C421505832200E7FE7B /* ASSyncService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C744C411505832200E7FE7B /* ASSyncService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		2C744C3015057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+ETPlaylistNameSorting.m"; sourceTree = "<group>"; };
 		2C744C3115057A7500E7FE7B /* NSString+LongLongValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LongLongValue.h"; sourceTree = "<group>"; };
 		2C744C3215057A7500E7FE7B /* NSString+LongLongValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LongLongValue.m"; sourceTree = "<group>"; };
+		2C744C401505832200E7FE7B /* ASSyncService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSyncService.h; sourceTree = "<group>"; };
+		2C744C411505832200E7FE7B /* ASSyncService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSyncService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		2C744B971505708800E7FE7B /* AnSync */ = {
 			isa = PBXGroup;
 			children = (
+				2C744C3F1505831000E7FE7B /* Sync Service */,
 				2C744BAE150573F600E7FE7B /* Scanner */,
 				2C744BA31505708800E7FE7B /* AppDelegate.h */,
 				2C744BA41505708800E7FE7B /* AppDelegate.m */,
@@ -188,6 +192,15 @@
 			);
 			name = EyeTunes;
 			path = EyeTunes/Source;
+			sourceTree = "<group>";
+		};
+		2C744C3F1505831000E7FE7B /* Sync Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C744C401505832200E7FE7B /* ASSyncService.h */,
+				2C744C411505832200E7FE7B /* ASSyncService.m */,
+			);
+			name = "Sync Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +282,7 @@
 				2C744C3C15057A7500E7FE7B /* ETUserPlaylistEnumerator.m in Sources */,
 				2C744C3D15057A7500E7FE7B /* NSNumber+ETPlaylistNameSorting.m in Sources */,
 				2C744C3E15057A7500E7FE7B /* NSString+LongLongValue.m in Sources */,
+				2C744C421505832200E7FE7B /* ASSyncService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

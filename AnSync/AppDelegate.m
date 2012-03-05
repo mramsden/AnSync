@@ -27,12 +27,20 @@
         _libraryScanner = [[ASLibraryScanner alloc] init];
     }
     
+    if (nil == _syncService) {
+        _syncService = [[ASSyncService alloc] init];
+    }
+    
+    [_syncService start];
+    
     [_libraryScanner addObserver:self forKeyPath:@"running" options:0 context:nil];
     [_libraryScanner start];
 }
 
 - (IBAction)stopScanner:(id)sender
 {
+    [_syncService stop];
+    
     [_libraryScanner stop];
     [_libraryScanner removeObserver:self forKeyPath:@"running"];
 }
